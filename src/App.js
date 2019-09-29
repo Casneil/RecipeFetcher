@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Recipe from "./views/Recipe";
+import Navbar from "./components/Navbar";
 
 function App() {
+  const [search, setSearch] = useState("");
+  const [query, setQuery] = useState("Chicken");
+
+  const getSearch = e => {
+    setSearch(e.target.value);
+  };
+
+  const onSubmit = e => {
+    e.preventDefault();
+    setQuery(search);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar search={getSearch} submit={onSubmit} />
+      <Recipe recipes={query} />
     </div>
   );
 }
