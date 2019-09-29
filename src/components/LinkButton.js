@@ -25,7 +25,7 @@ const LinkButton = props => {
       <Tooltip title="Visit Page">
         {/* <Link to={{ pathname: `${props.website}` }}> */}
         <Button
-          //   href={`${props.website}`}
+            href={`${props.website}`}
           className={classes.button}
           color="secondary"
         >
