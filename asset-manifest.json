@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RecipeFetcher/static/css/main.2da19fae.chunk.css",
+    "main.js": "/RecipeFetcher/static/js/main.ae1d5c27.chunk.js",
+    "main.js.map": "/RecipeFetcher/static/js/main.ae1d5c27.chunk.js.map",
+    "runtime-main.js": "/RecipeFetcher/static/js/runtime-main.449e40dc.js",
+    "runtime-main.js.map": "/RecipeFetcher/static/js/runtime-main.449e40dc.js.map",
+    "static/js/2.3176286a.chunk.js": "/RecipeFetcher/static/js/2.3176286a.chunk.js",
+    "static/js/2.3176286a.chunk.js.map": "/RecipeFetcher/static/js/2.3176286a.chunk.js.map",
+    "index.html": "/RecipeFetcher/index.html",
+    "precache-manifest.28ff2784c737a41147b74d58cf70bf6a.js": "/RecipeFetcher/precache-manifest.28ff2784c737a41147b74d58cf70bf6a.js",
+    "service-worker.js": "/RecipeFetcher/service-worker.js",
+    "static/css/main.2da19fae.chunk.css.map": "/RecipeFetcher/static/css/main.2da19fae.chunk.css.map"
+  }
+}
