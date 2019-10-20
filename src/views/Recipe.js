@@ -80,7 +80,7 @@ const Recipe = props => {
     // <div className={classes.card}>
     <Grid container className={classes.root}>
       {recipes.map(recipe => (
-        <Grid key={recipe.recipe.label}>
+        <Grid key={recipe.recipe.image}>
           <Card className={classes.card}>
             <CardHeader
               title={
