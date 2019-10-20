@@ -2,10 +2,7 @@
   "name": "food_to_fork",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
   "homepage": "https://casneil.github.io/RecipeFetcher/",
-=======
->>>>>>> 57939b8e752f153a44a9eda3a0dc87f6dd8bb60f
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "@material-ui/icons": "^4.4.3",
@@ -19,11 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-=======
->>>>>>> 57939b8e752f153a44a9eda3a0dc87f6dd8bb60f
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
