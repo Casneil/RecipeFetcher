@@ -92,7 +92,7 @@ const Navbar = props => {
             <MenuIcon />
           </IconButton> */}
             <Typography className={classes.title} variant="h6" noWrap>
-              Casneil's and Diana's Recipe Viewer
+              Casneil's Recipe Viewer
             </Typography>
             <div className={classes.search}>
               <div className={classes.searchIcon}>
