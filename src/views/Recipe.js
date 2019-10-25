@@ -43,26 +43,12 @@ const Recipe = props => {
 
   const heroku = "https://cors-anywhere.herokuapp.com/";
 
-  // Food To Fork API
-  // const API_KEY_Yahoo = "5858061f7438302c37be8a785d3b073d";
-  // const API_KEY_Gmail = "bfbb9c534a0c6192824cc0925fb9373f";
-  // const count = "&count=10";
-  // const api_request = `https://www.food2fork.com/api/search?key=${API_KEY_Gmail}&q=${props.recipes}${count}`;
-
   // Edaman Api
   const API_KEY = "eb1249267087501a5f284a364c06d72a";
   const APP_ID = "e3483cc8";
   const api_request = `${heroku}https://api.edamam.com/search?q=${props.recipes}&app_id=${APP_ID}&app_key=${API_KEY}`;
 
   const [recipes, setRecipes] = useState([]);
-
-  //FoodToFork
-  // const getRecipes = async () => {
-  //   const response = await fetch(api_request);
-  //   const data = await response.json();
-  //   setRecipes(data.recipes);
-  //   console.log(data.hits[0]);
-  // };
 
   //Edaman
   const getRecipes = async () => {
