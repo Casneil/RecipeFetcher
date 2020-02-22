@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import LinkButton from "../components/LinkButton";
 
+import { API_KEY, APP_ID } from "../key";
+
 // Material Imports
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -44,8 +46,7 @@ const Recipe = props => {
   const heroku = "https://cors-anywhere.herokuapp.com/";
 
   // Edaman Api
-  const API_KEY = "eb1249267087501a5f284a364c06d72a";
-  const APP_ID = "e3483cc8";
+
   const api_request = `${heroku}https://api.edamam.com/search?q=${props.recipes}&app_id=${APP_ID}&app_key=${API_KEY}`;
 
   const [recipes, setRecipes] = useState([]);
